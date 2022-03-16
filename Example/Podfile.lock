@@ -1,0 +1,16 @@
+PODS:
+  - LocoApiLib (0.1.0)
+
+DEPENDENCIES:
+  - LocoApiLib (from `../`)
+
+EXTERNAL SOURCES:
+  LocoApiLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocoApiLib: 0cb3ceed42faa8bdba120471c8680b1aa59ba81e
+
+PODFILE CHECKSUM: b3801d5f468ad6e7175e8702066d749e4e46ad2a
+
+COCOAPODS: 1.11.3

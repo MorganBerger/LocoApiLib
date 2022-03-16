@@ -1,0 +1,6 @@
+framework module LocoApiLib {
+  umbrella header "LocoApiLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
