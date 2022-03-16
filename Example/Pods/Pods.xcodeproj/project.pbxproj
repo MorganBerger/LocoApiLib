@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		88A7F42B34995205F3192C1526EEF2C0 /* Pods-LocoApiLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970CB9022C79849FD19201F52765E2A6 /* Pods-LocoApiLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A557BC27E2503C0037FC85 /* LocoAPISwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557AA27E2503C0037FC85 /* LocoAPISwiftUI.swift */; };
+		90A557BD27E2503C0037FC85 /* LocoAPI+Observables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557AC27E2503C0037FC85 /* LocoAPI+Observables.swift */; };
+		90A557BE27E2503C0037FC85 /* LocalsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557AD27E2503C0037FC85 /* LocalsManager.swift */; };
+		90A557BF27E2503C0037FC85 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557AF27E2503C0037FC85 /* String.swift */; };
+		90A557C027E2503C0037FC85 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B027E2503C0037FC85 /* Bundle.swift */; };
+		90A557C127E2503C0037FC85 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B327E2503C0037FC85 /* APIClient.swift */; };
+		90A557C227E2503C0037FC85 /* LocoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B527E2503C0037FC85 /* LocoResponse.swift */; };
+		90A557C327E2503C0037FC85 /* LocoResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B627E2503C0037FC85 /* LocoResponseParser.swift */; };
+		90A557C427E2503C0037FC85 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B727E2503C0037FC85 /* API.swift */; };
+		90A557C527E2503C0037FC85 /* LocoApi+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557B927E2503C0037FC85 /* LocoApi+UserDefaults.swift */; };
+		90A557C627E2503C0037FC85 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557BA27E2503C0037FC85 /* Errors.swift */; };
+		90A557C727E2503C0037FC85 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A557BB27E2503C0037FC85 /* AppConfig.swift */; };
 		AF840154546ECB7A62C78644B0D78B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C8BA3F132E66A9A23711905ECF392EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CBB655904BC9EF78232E1BB0B9018A62 /* LocoApiLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F12226C7A4489D3BEB0C700F498611 /* LocoApiLib-dummy.m */; };
@@ -37,6 +49,18 @@
 		6A7260FD04D33D856A3DEB464171E23D /* LocoApiLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LocoApiLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6A90A475D644B36B883E0BFF2D3EC48E /* Pods-LocoApiLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocoApiLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90A557AA27E2503C0037FC85 /* LocoAPISwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoAPISwiftUI.swift; sourceTree = "<group>"; };
+		90A557AC27E2503C0037FC85 /* LocoAPI+Observables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocoAPI+Observables.swift"; sourceTree = "<group>"; };
+		90A557AD27E2503C0037FC85 /* LocalsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalsManager.swift; path = LocoApiLib/Classes/LocalsManager.swift; sourceTree = "<group>"; };
+		90A557AF27E2503C0037FC85 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		90A557B027E2503C0037FC85 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		90A557B327E2503C0037FC85 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		90A557B527E2503C0037FC85 /* LocoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoResponse.swift; sourceTree = "<group>"; };
+		90A557B627E2503C0037FC85 /* LocoResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocoResponseParser.swift; sourceTree = "<group>"; };
+		90A557B727E2503C0037FC85 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		90A557B927E2503C0037FC85 /* LocoApi+UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocoApi+UserDefaults.swift"; sourceTree = "<group>"; };
+		90A557BA27E2503C0037FC85 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		90A557BB27E2503C0037FC85 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		970CB9022C79849FD19201F52765E2A6 /* Pods-LocoApiLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocoApiLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A9A9212E60C8E82359A6AB151B85AA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9AC7318270745AD210309E2B3B7804FA /* LocoApiLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoApiLib.debug.xcconfig; sourceTree = "<group>"; };
@@ -104,6 +128,73 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		90A557A927E2503C0037FC85 /* LocoAPISwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				90A557AA27E2503C0037FC85 /* LocoAPISwiftUI.swift */,
+				90A557AB27E2503C0037FC85 /* Observables */,
+			);
+			name = LocoAPISwiftUI;
+			path = LocoApiLib/Classes/LocoAPISwiftUI;
+			sourceTree = "<group>";
+		};
+		90A557AB27E2503C0037FC85 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				90A557AC27E2503C0037FC85 /* LocoAPI+Observables.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		90A557AE27E2503C0037FC85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90A557AF27E2503C0037FC85 /* String.swift */,
+				90A557B027E2503C0037FC85 /* Bundle.swift */,
+			);
+			name = Extensions;
+			path = LocoApiLib/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		90A557B127E2503C0037FC85 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90A557B227E2503C0037FC85 /* API */,
+			);
+			name = Network;
+			path = LocoApiLib/Classes/Network;
+			sourceTree = "<group>";
+		};
+		90A557B227E2503C0037FC85 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				90A557B327E2503C0037FC85 /* APIClient.swift */,
+				90A557B427E2503C0037FC85 /* ResponseModel */,
+				90A557B727E2503C0037FC85 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		90A557B427E2503C0037FC85 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				90A557B527E2503C0037FC85 /* LocoResponse.swift */,
+				90A557B627E2503C0037FC85 /* LocoResponseParser.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		90A557B827E2503C0037FC85 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				90A557B927E2503C0037FC85 /* LocoApi+UserDefaults.swift */,
+				90A557BA27E2503C0037FC85 /* Errors.swift */,
+				90A557BB27E2503C0037FC85 /* AppConfig.swift */,
+			);
+			name = Config;
+			path = LocoApiLib/Classes/Config;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +217,11 @@
 		E69DAC267264177AC9FF850FBCF97AF9 /* LocoApiLib */ = {
 			isa = PBXGroup;
 			children = (
+				90A557B827E2503C0037FC85 /* Config */,
+				90A557AE27E2503C0037FC85 /* Extensions */,
+				90A557AD27E2503C0037FC85 /* LocalsManager.swift */,
+				90A557A927E2503C0037FC85 /* LocoAPISwiftUI */,
+				90A557B127E2503C0037FC85 /* Network */,
 				F3FBC98CB3CED40E26911E1CD9A49BE6 /* Pod */,
 				EDEA93020E3A3191388FCEA77DEB0A54 /* Support Files */,
 			);
@@ -301,7 +397,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A557C527E2503C0037FC85 /* LocoApi+UserDefaults.swift in Sources */,
+				90A557BD27E2503C0037FC85 /* LocoAPI+Observables.swift in Sources */,
+				90A557C327E2503C0037FC85 /* LocoResponseParser.swift in Sources */,
+				90A557C227E2503C0037FC85 /* LocoResponse.swift in Sources */,
+				90A557C627E2503C0037FC85 /* Errors.swift in Sources */,
+				90A557C127E2503C0037FC85 /* APIClient.swift in Sources */,
+				90A557C427E2503C0037FC85 /* API.swift in Sources */,
+				90A557C027E2503C0037FC85 /* Bundle.swift in Sources */,
 				CBB655904BC9EF78232E1BB0B9018A62 /* LocoApiLib-dummy.m in Sources */,
+				90A557BF27E2503C0037FC85 /* String.swift in Sources */,
+				90A557C727E2503C0037FC85 /* AppConfig.swift in Sources */,
+				90A557BC27E2503C0037FC85 /* LocoAPISwiftUI.swift in Sources */,
+				90A557BE27E2503C0037FC85 /* LocalsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
