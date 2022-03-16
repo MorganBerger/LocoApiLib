@@ -18,7 +18,7 @@
 		607FACE51AFB9204008FA782 /* LocoApiLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocoApiLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F7C0A9202F506F65058E5D9 /* LocoApiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocoApiLib.podspec; path = ../LocoApiLib.podspec; sourceTree = "<group>"; };
+		7F7C0A9202F506F65058E5D9 /* LocoApiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocoApiLib.podspec; path = ../LocoApiLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B40D95C8E562CB263C956AE8 /* Pods-LocoApiLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocoApiLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocoApiLib_Tests/Pods-LocoApiLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB8912A42F90058E3A8C905 /* Pods_LocoApiLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocoApiLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
