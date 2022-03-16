@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LocoApiLib_Tests' do
+  pod 'LocoApiLib', :path => '../'
+  
+  
+end
