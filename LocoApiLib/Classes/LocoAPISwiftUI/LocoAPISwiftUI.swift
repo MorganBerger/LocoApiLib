@@ -27,7 +27,7 @@ struct LocoAPILibLoadingModifier<Instead: View>: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func locoAPILoading<Instead: View>(instead: () -> Instead) -> some View {
         self
             .modifier(LocoAPILibLoadingModifier(insteadView: instead()))
