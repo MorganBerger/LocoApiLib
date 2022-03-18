@@ -1,6 +1,5 @@
 # LocoApiLib
 
-[![CI Status](https://img.shields.io/travis/morganberger/LocoApiLib.svg?style=flat)](https://travis-ci.org/morganberger/LocoApiLib)
 [![Version](https://img.shields.io/cocoapods/v/LocoApiLib.svg?style=flat)](https://cocoapods.org/pods/LocoApiLib)
 [![License](https://img.shields.io/cocoapods/l/LocoApiLib.svg?style=flat)](https://cocoapods.org/pods/LocoApiLib)
 [![Platform](https://img.shields.io/cocoapods/p/LocoApiLib.svg?style=flat)](https://cocoapods.org/pods/LocoApiLib)
